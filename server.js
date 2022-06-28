@@ -45,8 +45,6 @@ res.send(error)
 
 })
 
-
-
 app.get('/getall' , (req,res)=>{
 
     User.find()
